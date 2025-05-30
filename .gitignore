@@ -1,1 +1,4 @@
-/my-agent-test/.env
+**/.env
+**/.idea
+**/.venv
+
