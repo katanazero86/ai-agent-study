@@ -1,4 +1,4 @@
 **/.env
 **/.idea
 **/.venv
-
+*.ipynb_checkpoints/
