@@ -31,10 +31,28 @@ chain = prompt | model | output_parser
 랭스미스(+LangChain)를 사용하여 OpenAI의 GPT 모델에게 질문을 보내고 그 응답을 출력하는 예제   
 랭스미스 콘솔을 열어보면, LLM 체인 추적 및 디버깅이 가능
 
+.env
+```
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="key"
+LANGSMITH_PROJECT="프로젝트명"
+OPENAI_API_KEY="key"
+```
+
 - langchain-node
 
 LangChain과 OpenAI의 LLM(ChatOpenAI)을 사용해 프롬프트 기반 자연어 처리를 수행하고, 실행 과정을 LangSmith의 트레이서(LangChainTracer)를 통해 추적하는 예시   
 ```
 // 체인 구(프롬프트 → LLM → 파서)
 const chain = prompt.pipe(llm).pipe(outputParser);
+```
+
+.env
+```
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=key
+LANGSMITH_PROJECT=프로젝트명
+OPENAI_API_KEY=key
 ```
