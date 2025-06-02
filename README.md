@@ -56,3 +56,8 @@ LANGSMITH_API_KEY=key
 LANGSMITH_PROJECT=프로젝트명
 OPENAI_API_KEY=key
 ```
+
+- llama-index-example
+
+라마 인덱스를 사용한 간단한 개발 예제   
+문서를 불러옴 -> 색인 생성 -> 질의 엔진 생성 및 질문 생성 -> 색인을 로컬에 저장
