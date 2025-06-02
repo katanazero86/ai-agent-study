@@ -25,3 +25,8 @@ LangChain Expression Language (LCEL)은 LangChain 체인을 간단하고 선언�
 ```
 chain = prompt | model | output_parser
 ```
+
+- lang-smith
+
+랭스미스(+LangChain)를 사용하여 OpenAI의 GPT 모델에게 질문을 보내고 그 응답을 출력하는 예제   
+랭스미스 콘솔을 열어보면, LLM 체인 추적 및 디버깅이 가능
